@@ -1,0 +1,16 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-TARGETDURATION:2
+#EXT-X-MEDIA-SEQUENCE:0
+#EXTINF:2.000000,
+http://127.0.0.1/static/movie/index0.ts
+#EXTINF:2.000000,
+http://127.0.0.1/static/movie/index1.ts
+#EXTINF:2.000000,
+http://127.0.0.1/static/movie/index2.ts
+#EXTINF:2.000000,
+http://127.0.0.1/static/movie/index3.ts
+#EXTINF:2.000000,
+http://127.0.0.1/static/movie/index4.ts
+#EXT-X-ENDLIST
+http://127.0.0.1/static/images/%E4%B9%85%E4%BF%9D%E5%90%8C%E5%AD%A6%E4%B8%8D%E6%94%BE%E8%BF%87%E6%88%91.webp
