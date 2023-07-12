@@ -9,14 +9,17 @@
 import Swiper from '../../components/Swiper/Swiper.vue'
 import MovieItem from '../../components/MovieItem/MovieItem.vue'
 import {useTypeItem} from '../../pinia/store'
-import { onMounted} from "vue";
+import { onMounted,onBeforeMount} from "vue";
 
 
 const store=useTypeItem()
 
+onBeforeMount(() => {
+  store.getTypeItem()
+}),
 
 onMounted(()=>{
-  store.getTypeItem()
+  
 })
 </script>
 

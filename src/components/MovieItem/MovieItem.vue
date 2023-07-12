@@ -1,5 +1,5 @@
 <template>
-    <div class="movieContainer" v-for="(item,index) in typeList.typeList" :key="index">
+  <div class="movieContainer" v-for="(item,index) in typeList.typeList" :key="index">
     <div class="title" v-if="item.typeList.length">
       <span class="movieSpan">{{item.typeEnglish||''}}</span>
       <text class="titleText">{{item.typeName||''}}</text>
@@ -14,7 +14,6 @@
       </div>
     </div>
   </div> 
-   
 </template>
 
 <script setup>

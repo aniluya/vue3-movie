@@ -23,6 +23,6 @@ provide('reload',reload)
 
 </script>
 
-<style>
+<style scoped>
 
 </style>

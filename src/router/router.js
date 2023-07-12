@@ -1,29 +1,23 @@
-import Main from '../components/Main/Main'
-import Detail from '../components/MovieDetail/detail'
-import Play from '../components/MoviePlay/MoviePlay'
-import MovieType from '../components/MovieType/MovieType'
-import WorkStore from '../components/WorkStore/WorkStore'
-
 export default [
     {
         path:'/home',
-        component:Main,
+        component:()=>import('../components/Main/Main'),
     },
     {
         path:'/home/type',
-        component:MovieType
+        component:()=>import('../components/MovieType/MovieType')
     },
     {
        path:'/home/typeStore',
-       component:WorkStore
+       component:()=>import('../components/WorkStore/WorkStore')
     },
     {
         path:'/moviedetail',
-        component:Detail
+        component:()=>import('../components/MovieDetail/detail')
     },
     {
         path:'/movieplay',
-        component:Play
+        component:()=>import('../components/MoviePlay/MoviePlay')
     },
      //   重定向，在项目跑起来的时候，访问/立刻让其定位到首页
      {
